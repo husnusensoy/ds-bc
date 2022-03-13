@@ -13,7 +13,7 @@ from metric import l1, l2, euc
 
 
 def main(verbose: bool = True):
-    st.header("Let's Generata a Blob")
+    st.header("Let's Generate a Blob")
 
     m = st.slider("Number of samples", 10, 10_000, value=500)
     sd = st.slider("Noise", 0., 10., value=2.)
